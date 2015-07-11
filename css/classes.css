@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+textarea{	
+	border-radius: 5px 5px 5px 5px;
+	width:100%;
+	max-width:600px;
+	height:60px;
+	display:block;	
+}
+
+.image-upload 
+{
+    display: none !important;
+}
+
+.anuncio{	
+	border-bottom: solid;
+	border-color: #CCC;
+	border-width: thin;
+}
+
+.blanco{
+	color:white;
+	text-shadow:1px 1px black;
+	
+}
+
+.negro{
+	color:black;	
+}
+
+.form-control{
+	padding:0;
+	margin:0;
+}
+
+.margintop3{
+	margin-top: 3%;
+}
+
+.element-box {	
+    margin:10px 0px 17px 0px; 
+    position: relative; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.4); 
+	overflow:hidden;
+	background-color:#CCC;
+	max-width:600px;
+	padding:5px;	
+	border-radius: 5px 5px 5px 5px;
+}
+
+.element-red-box {	
+    margin:10px 0px 17px 0px; 
+    position: relative; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.4); 
+	overflow:hidden;
+	background-color:#DCC5BE;
+	max-width:600px;
+	padding:5px;	
+	border-radius: 5px 5px 5px 5px;
+}
+
+.formBox{
+	padding: 2%;
+}
+
+.heading{
+	width:250px;;
+}
+
+.footer{
+	margin:0;
+	padding:0;
+}
+
+.sendImage{
+	height: 15px;
+	width: 15px;
+	float:right;
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	font-size:0.8em;
+}
+
+.userImage{
+	float:left;
+	width:35px;
+	height:35px;
+	margin:3px;	
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.bigUserImage{
+	width:80px;
+	height:80px;
+	margin:3px;
+	margin-right:3%;	
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.smallImage{
+	height: 15px;
+	width: 15px;
+}
+
+.media{
+	margin-top:10px;
+	margin-bottom: 5px;		
+}
+
+.videoIframe{
+	display:block;
+}
+
+.attachImage{
+	margin-right:5px;
+	float:left;
+	height: 15px;
+}
+
+.message{	
+	border-top: solid;
+	border-color: white;
+	border-width: thin;
+	padding-top:5px;
+	margin: 20px 10px 20px 10px;
+	text-align:left;
+}
+
+.form-entry{
+	float:right;
+	margin:0;
+	paddng:0;
+}
+
+/* the overlayed element */
+.simple_overlay {
+ 
+    /* must be initially hidden */
+    display:none;
+ 
+    /* place overlay on top of other elements */
+    z-index:10000;
+ 
+    /* styling */
+    background-color:#333;
+ 
+    width:675px;
+    min-height:200px;
+    border:1px solid #666;
+ 
+    /* CSS3 styling for latest browsers */
+    -moz-box-shadow:0 0 90px 5px #000;
+    -webkit-box-shadow: 0 0 90px #000;
+}
+ 
+/* close button positioned on upper right corner */
+.simple_overlay .close {
+    background-image:url(../img/close.png);
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    cursor:pointer;
+    height:35px;
+    width:35px;
+}
+
+ /* styling for elements inside overlay */
+  .details {
+  position:absolute;
+  top:15px;
+  right:15px;
+  font-size:11px;
+  color:#fff;
+  width:150px;
+  }
+ 
+  .details h3 {
+  color:#aba;
+  font-size:15px;
+  }
+	
+ .overlayed{
+ 	height:300px;
+ }
